@@ -1,0 +1,7 @@
+.info-box {
+    max-width: 335px;
+    height: 343px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(6 1fr);
+}
