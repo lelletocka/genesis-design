@@ -1,0 +1,97 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    padding: 20px;
+    color: #111111;
+    height: 100vh;
+}
+
+header, main, footer {
+    max-width: 1110px;
+    overflow: hidden;
+    margin: auto;
+}
+
+hr {
+    background-color: #979797;
+    height: 2px;
+    border: none;
+}
+
+.short-line {
+    width: 21px;
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #111111;
+}
+
+a:hover {
+    color: #4A4FF2;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h4, .nav-link {
+    font-size: 18px;
+}
+
+p {
+    opacity: 60%;
+    font-size: 16px;
+}
+
+.italic {
+    font-style: italic;
+    
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-link-div {    
+    flex-grow: 5;
+}
+
+.link-div {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.nav-link {
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.genesis-link {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 0;
+}
+
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top-text {
+    max-width: 60%;
+}
+
