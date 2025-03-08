@@ -1,7 +1,9 @@
 
 .top-text {
-    width: 60%;
+    width: 100%;
 }
+
+
 
 
 
@@ -10,8 +12,9 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(32, 1fr);
     gap: 21px;
+    justify-items: right;
     height: 1960px;
-    
+    margin: 20px 0;
 }
 
 

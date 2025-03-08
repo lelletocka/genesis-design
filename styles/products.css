@@ -1,7 +1,21 @@
+h1 {
+    max-width: 495px;
+}
+
 .info-box {
     max-width: 335px;
     height: 343px;
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: repeat(6 1fr);
+}
+
+
+
+.triple-image-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
 }

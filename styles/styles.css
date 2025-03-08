@@ -13,6 +13,13 @@ header, main, footer {
     margin: auto;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
 hr {
     background-color: #979797;
     height: 2px;
@@ -88,10 +95,20 @@ p {
 .top-section {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .top-text {
-    max-width: 60%;
+    max-width: 640px;
 }
 
+.top-side {
+    align-self: flex-end;
+}
+
+.full-image {
+    width: 100%;
+    height: auto;
+}

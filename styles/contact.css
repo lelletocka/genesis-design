@@ -1,6 +1,49 @@
 
+.top-section {
+    
+}
 
+.top-text {
+    max-width: 445px;
+}
+
+.top-side {
+    min-width: 42%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 475px;
+    height: 291px;
+}
+
+.form-label {
+    color: #111111;
+    opacity: 60%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.form-input {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    width: 100%;
+}
 
 .button {
     background-color: #4A4FF2;
+    color: #FFFFFF;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    min-width: 125px;
+    padding: 12px 20px;
 }
