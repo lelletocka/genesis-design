@@ -3,11 +3,13 @@
     
 }
 
-.top-text {
+.top-left {
     max-width: 445px;
 }
 
-.top-side {
+.top-right {
+    width: 100%;
+    max-width: 475px;
     min-width: 42%;
 }
 
@@ -18,7 +20,6 @@
     justify-content: space-evenly;
     align-items: flex-start;
     width: 100%;
-    max-width: 475px;
     height: 291px;
 }
 
@@ -46,4 +47,8 @@
     border: none;
     min-width: 125px;
     padding: 12px 20px;
+}
+
+.button:hover {
+    background-color: darkblue;
 }

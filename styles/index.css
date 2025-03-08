@@ -1,9 +1,18 @@
 
-.top-text {
-    width: 100%;
+
+
+.top-section {
+    align-items: flex-end;
 }
 
+/*.top-left {
+    width: 100%;
+    
+}*/
 
+.top-right {
+    max-height: 106px;
+}
 
 
 
@@ -64,4 +73,30 @@
 
 .img-12 {
     grid-area: 27/3/32/4;
+}
+
+
+.top-right-a2 {
+    align-self: flex-start;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    row-gap: 15px;
+    max-height: 100px;
+    max-width: 400px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.list-item {
+    width: 160px;
+    text-align: left;
+    opacity: 60%;
+    
 }
