@@ -1,0 +1,37 @@
+@use 'fonts-colors';
+@import 'main';
+@import 'header-footer';
+@import 'gallery';
+
+.top-section {
+    align-items: flex-end;
+}
+
+.top-right {
+    max-height: 106px;
+}
+
+.top-right-a2 {
+    align-self: flex-start;
+}
+
+.service-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    row-gap: 15px;
+    max-height: 100px;
+    max-width: 400px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.list-item {
+    width: 160px;
+    text-align: left;
+    color: fonts-colors.$sidecolor-one;
+    
+}

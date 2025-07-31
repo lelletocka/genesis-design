@@ -1,0 +1,50 @@
+@use 'fonts-colors';
+
+header, footer {
+    max-width: 1110px;
+    overflow: hidden;
+    margin: auto;
+}
+
+header {   
+    margin-bottom: 80px;
+}
+
+footer {
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+.main-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.logo-link-div {    
+    -webkit-box-flex: 5;    
+        -ms-flex-positive: 5;    
+            flex-grow: 5;
+}
+
+.link-div {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    text-align: right;
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.genesis-link {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 0;
+}

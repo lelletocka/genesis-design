@@ -1,0 +1,142 @@
+@use 'fonts-colors';
+
+body {
+    font-family: fonts-colors.$main-font;
+    font-style: fonts-colors.$main-fontstyle;
+    font-optical-sizing: auto;
+    padding: 20px;
+    color: fonts-colors.$text-color;
+    height: 100vh;
+}
+
+main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 20px;
+    max-width: 1110px;
+    overflow: hidden;
+    margin: auto;
+}
+
+hr {
+    background-color: fonts-colors.$sidecolor-two;
+    height: 2px;
+    border: none;
+    width: 100%;
+}
+
+.short-line {
+    background-color: fonts-colors.$sidecolor-one;
+    width: 21px;
+    margin-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: fonts-colors.$text-color;
+    &:hover {
+        color: fonts-colors.$accent-color;
+    }
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+
+h4 { 
+    font-size: 18px;
+}
+
+p {
+    color: fonts-colors.$p-text-color;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.opac-60 {
+    color: fonts-colors.$sidecolor-one;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.color-text { 
+    color: fonts-colors.$accent-color;
+}
+
+.article {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    row-gap: 40px;    
+    width: 100%;
+}
+
+section {
+    padding: 20px 0;
+}
+
+.top-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 20px;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.top-left {
+    max-width: 640px;
+}
+
+.top-right {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+
+.full-image {
+    width: 100%;
+    height: auto;
+}

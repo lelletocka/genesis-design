@@ -1,0 +1,13 @@
+@import 'main';
+@import 'header-footer';
+@import 'form';
+
+.top-left {
+    max-width: 445px;
+}
+
+.top-right {
+    width: 100%;
+    max-width: 475px;
+    min-width: 42%;
+}
